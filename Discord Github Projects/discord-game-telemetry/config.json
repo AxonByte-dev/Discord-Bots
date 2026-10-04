@@ -1,0 +1,25 @@
+{
+  "DISCORD_TOKEN": "YOUR_BOT_TOKEN_HERE",
+  "SERVERS": {
+    "minecraft_server": {
+      "name": "Minecraft Server",
+      "host": "minecraft.example.com",
+      "port": 25565,
+      "type": "minecraft"
+    },
+    "cs2_server": {
+      "name": "CS2 Server", 
+      "host": "cs2.example.com",
+      "port": 27015,
+      "type": "cs2"
+    },
+    "generic_web_server": {
+      "name": "Web Server",
+      "host": "example.com",
+      "port": 80,
+      "type": "generic"
+    }
+  },
+  "STATUS_CHANNEL_ID": "123456789012345678",
+  "UPDATE_INTERVAL": 60
+}
